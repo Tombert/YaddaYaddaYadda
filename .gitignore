@@ -25,7 +25,8 @@ build/Release
 
 # Dependency directory
 node_modules
-dist
+dist/bundle.js
+
 
 # Optional npm cache directory
 .npm
