@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Chat = React.createClass({
   render:function(){
-    return ( <div>
+    return ( <div className="chatbox">
              {this.props.messages.map( (message) => <div>{message}</div>)}
              </div>)
   }
